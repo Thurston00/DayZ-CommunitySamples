@@ -1,0 +1,7 @@
+﻿///<'fishing.pbo' properties via Mikero's dos tools, dll version 7.26>///
+prefix=Zeroy\Weapons\Destra3000
+Mikero=DePbo.dll.7.26
+version=Sat Aug 31 20:18:44 2019
+//Pbo Type is: Arma Addon
+//Sha: 'FA4EEF65211B2B66E93D3711BCA7CC9FC05FD016'
+//////</properties>//////
