@@ -1,6 +1,6 @@
 # DayZ Community Samples
 
-This repository is created by the DayZ Modding community, to help other modders learn how to do a certain thing, be it creating vehicles or weapons.
+This repository is created by the DayZ Modding community, to help other modders learn how to do a certain thing, be it creating vehicles or weapons or script examples.
 
 ## Contribution
 
@@ -21,5 +21,9 @@ Sample_Weapon
       - Config.cpp
       - Weapon.p3d
 ```
+
+All samples should be setup to work as a standalone mod. Any config/texture/model paths should be relative from the sample parent folder.
+
+An example model path in a config would be `Sample_Weapon\WeaponModel.p3d`.
 
 If you are doing script-based samples, make sure to follow the VANILLA file structure, for example: `Scripts\4_World\Entities\ManBase\PlayerBase.c`.

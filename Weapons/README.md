@@ -21,3 +21,7 @@ Sample_Weapon
       - Config.cpp
       - Weapon.p3d
 ```
+
+All samples should be setup to work as a standalone mod. Any config/texture/model paths should be relative from the sample parent folder.
+
+An example model path in a config would be `Sample_Weapon\WeaponModel.p3d`.
