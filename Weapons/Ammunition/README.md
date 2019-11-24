@@ -1,4 +1,4 @@
-# DayZ Community Ammunation Samples
+# DayZ Community Ammunition Samples
 
 This section is for anything ammunation related.
 

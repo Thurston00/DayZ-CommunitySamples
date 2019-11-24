@@ -12,7 +12,7 @@ You must ONLY upload source (unbinarized, unobfuscated and uncompressed) files. 
 
 When contributing to this repository, you must follow the structure below:
 ```
-Sample_Weapon
+SampleWeapon
       - Sub-Folder
            - Texture.paa
            - Material.rvmat
@@ -24,4 +24,4 @@ Sample_Weapon
 
 All samples should be setup to work as a standalone mod. Any config/texture/model paths should be relative from the sample parent folder.
 
-An example model path in a config would be `Sample_Weapon\WeaponModel.p3d`.
+An example model path in a config would be `SampleWeapon\WeaponModel.p3d`.
