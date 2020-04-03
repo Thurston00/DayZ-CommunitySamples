@@ -1,0 +1,107 @@
+FrameWidgetClass rootFrame {
+ size 1 1
+ halign center_ref
+ valign center_ref
+ hexactpos 0
+ vexactpos 0
+ hexactsize 0
+ vexactsize 0
+ {
+  PanelWidgetClass pnl_frame {
+   ignorepointer 1
+   size 0.4 0.6
+   halign center_ref
+   valign center_ref
+   hexactpos 0
+   vexactpos 0
+   hexactsize 0
+   vexactsize 0
+   style editor_quad
+   {
+    PanelWidgetClass pnl_bg {
+     ignorepointer 1
+     position 0 0
+     size 0.99 0.99
+     halign center_ref
+     valign center_ref
+     hexactpos 0
+     vexactpos 0
+     hexactsize 0
+     vexactsize 0
+     style rover_sim_black
+     {
+      TextWidgetClass Title {
+       ignorepointer 1
+       position 0 0
+       size 0.5 0.111
+       halign center_ref
+       hexactpos 0
+       vexactpos 0
+       hexactsize 0
+       vexactsize 0
+       style Normal
+       text "My Custom Boring 1995 looking like Menu"
+       font "gui/fonts/Metron-Bold28"
+       "exact text" 1
+       "size to text h" 1
+       "size to text v" 1
+       "text halign" center
+       "text valign" center
+      }
+      ScrollWidgetClass Scroller {
+       ignorepointer 0
+       position 0 0.05
+       size 0.99 0.8
+       halign center_ref
+       hexactpos 0
+       vexactpos 0
+       hexactsize 0
+       vexactsize 0
+       "Scrollbar V" 1
+       {
+        GridSpacerWidgetClass Grid {
+         ignorepointer 1
+         size 1 1
+         halign center_ref
+         hexactpos 0
+         vexactpos 0
+         hexactsize 0
+         vexactsize 0
+         Padding 10
+         Margin 1
+         "Size To Content H" 1
+         "Size To Content V" 1
+         Columns 6
+         Rows 100
+        }
+       }
+      }
+      ButtonWidgetClass BtnAddChild {
+       position 0.15 0.02
+       size 0.3 0.055
+       halign right_ref
+       valign bottom_ref
+       hexactpos 0
+       vexactpos 0
+       hexactsize 0
+       vexactsize 0
+       style Editor
+       text "Add Child"
+      }
+      ButtonWidgetClass BtnRemoveChild {
+       position 0.15 0.02
+       size 0.3 0.055
+       valign bottom_ref
+       hexactpos 0
+       vexactpos 0
+       hexactsize 0
+       vexactsize 0
+       style Editor
+       text "Remove Child"
+      }
+     }
+    }
+   }
+  }
+ }
+}
