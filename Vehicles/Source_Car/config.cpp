@@ -129,7 +129,7 @@ class CfgVehicles
 							1.0,
 							
 							{
-								"DZ\vehicles\wheeled\OffroadHatchback\data\niva_wheel.rvmat" // change these to your own rvmats. Pristine
+								"" // change these to your own rvmats. Pristine
 							}
 						},
 						
@@ -137,7 +137,7 @@ class CfgVehicles
 							0.69999999,
 							
 							{
-								"DZ\vehicles\wheeled\OffroadHatchback\data\niva_wheel.rvmat" //worn
+								"" //worn
 							}
 						},
 						
@@ -145,7 +145,7 @@ class CfgVehicles
 							0.5,
 							
 							{
-								"DZ\vehicles\wheeled\OffroadHatchback\data\niva_wheel_damage.rvmat" //damaged
+								"" //damaged
 							}
 						},
 						
@@ -153,7 +153,7 @@ class CfgVehicles
 							0.30000001,
 							
 							{
-								"DZ\vehicles\wheeled\OffroadHatchback\data\niva_wheel_damage.rvmat" //badly damaged
+								"" //badly damaged
 							}
 						},
 						
@@ -161,7 +161,7 @@ class CfgVehicles
 							0.0,
 							
 							{
-								"DZ\vehicles\wheeled\OffroadHatchback\data\niva_wheel_destruct.rvmat" //ruined.. kinda not needed as wheel changes to destroyed wheel upon being ruined
+								"" //ruined.. kinda not needed as wheel changes to destroyed wheel upon being ruined
 							}
 						}
 					};
@@ -395,7 +395,7 @@ class CfgVehicles
 			"Source_Car_Codriver_door"
 		};
 		rotationFlags=4;
-	}
+	};
 	class SourceCar_CodriverDoor_Red: SourceCar_CodriverDoor
 	{
 		hiddenSelections[]=
@@ -429,7 +429,7 @@ class CfgVehicles
 			"Source_Car_Cargo1_door"
 		};
 		rotationFlags=4;
-	}
+	};
 	class SourceCar_Cargo1_Red: SourceCar_Cargo1
 	{
 		hiddenSelections[]=
@@ -463,7 +463,7 @@ class CfgVehicles
 			"Source_Car_Cargo2_door"
 		};
 		rotationFlags=4;
-	}
+	};
 	class SourceCar_Cargo2_Red: SourceCar_Cargo2
 	{
 		hiddenSelections[]=
@@ -809,7 +809,7 @@ class CfgVehicles
 				proxyPos="crewCoDriver";
 				getInPos="pos_coDriver";
 				getInDir="pos_coDriver_dir";
-			}
+			};
 			class Cargo1
 			{
 				actionSel="seat_cargo1";
